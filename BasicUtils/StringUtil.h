@@ -15,3 +15,12 @@ int strcmp(const char* str1,const char* str2)
 	}
 	return *str1-*str2;//返回最终停止位置的字符值之差
 }
+
+//字符串拷贝
+char* strcpy(char* dest,const char* src);
+//字符串拷贝
+char* strcat(char* dest,const char* src);
+
+
+#endif
+
