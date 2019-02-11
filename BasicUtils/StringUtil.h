@@ -22,5 +22,10 @@ char* strcpy(char* dest,const char* src);
 char* strcat(char* dest,const char* src);
 //字符串拷贝
 char* strncpy(char* dest,const char* src);
+
+//内存拷贝函数，按字节拷贝，考虑了内存重叠的情况
+void* memmove(void* dst,const void* src,int len);
+
+void* memcpy(void* dst,const void* src,size_t len);
 #endif
 
