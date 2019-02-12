@@ -25,5 +25,7 @@ public:
 	inline void* NoBarrier_Load(){
 		return rep_.load(std::memory_order_relaxed);
 	}
-	
+	inline void NoBarrier_Acquire(){
+		
+	}
 } 
